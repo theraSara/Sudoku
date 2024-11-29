@@ -4,7 +4,7 @@ This Python program solves a 9x9 Sudoku puzzle using a backtracking algorithm. T
 
 ## Features
 - Validates Sudoku rules (row, column, and 3x3 subgrid constraints).
-- Uses backtracking to efficiently solve the puzzle.
+- Uses backtracking to solve the puzzle efficiently.
 - Prints the initial and solved Sudoku board.
 
 ---
@@ -45,3 +45,27 @@ This Python program solves a 9x9 Sudoku puzzle using a backtracking algorithm. T
 0 7 0 | 3 0 0 | 0 0 2
 1 2 0 | 0 0 7 | 4 0 0
 0 4 9 | 2 0 6 | 0 0 7
+```
+#### Solved Output
+```plaintext
+7 8 5 | 4 3 9 | 1 2 6
+6 1 2 | 8 7 5 | 3 4 9
+4 9 3 | 6 2 1 | 5 7 8
+- - - - - - - - - - - -
+8 5 7 | 9 4 3 | 2 6 1
+2 6 1 | 7 5 8 | 9 3 4
+9 3 4 | 1 6 2 | 7 8 5
+- - - - - - - - - - - -
+5 7 8 | 3 9 4 | 6 1 2
+1 2 6 | 5 8 7 | 4 9 3
+3 4 9 | 2 1 6 | 8 5 7
+```
+
+## How to Run?
+1. Clone the repository or copy the code.
+2. Ensure python 3.x is installed on your system.
+3. Run the script in you terminal or IDE:
+   ```
+   python sudoku_solver.py
+   ```
+4. The program will display the solved Sudoku board.
